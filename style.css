@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-section {
+#product-overview {
   background-color: #ff1b68;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  color: antiquewhite;
+}
+
+.section-title {
+  color: #05c405;
 }
