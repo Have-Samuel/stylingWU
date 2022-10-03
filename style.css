@@ -55,10 +55,19 @@ body {
   color: #0e4f1f;
 }
 
-.main-nav__item a:hover {
+/* Pseudo-classes */
+.main-nav__item a::after {
+  content: " (Link)";
+  color: red;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
   color: antiquewhite;
 }
 
-.main-nav__item a:active {
-  color: antiquewhite;
+/* pseudo-elements */
+p::first-letter {
+  color: red;
+  font-size: 18px;
 }
