@@ -48,9 +48,17 @@ body {
 .main-nav__items {
   display: flex;
   list-style-type: none;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .main-nav__item a {
   color: #0e4f1f;
+}
+
+.main-nav__item a:hover {
+  color: antiquewhite;
+}
+
+.main-nav__item a:active {
+  color: antiquewhite;
 }
