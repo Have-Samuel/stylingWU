@@ -13,6 +13,9 @@ body {
 
 #product-overview {
   background-color: #ff1b68;
+  padding: 1rem;
+  border: 5px solid black;
+  margin: 1rem;
 }
 
 #product-overview h1 {
