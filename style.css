@@ -28,11 +28,26 @@ body {
 }
 
 .main-header {
+  display: flex;
+  justify-content: space-between;
   background-color: #05c405;
   width: 100%;
   padding: 0.5rem 1rem;
 }
 
-.main-nav__item {
-  display: inline-block;
+.main-header a {
+  text-decoration: none;
 }
+
+.main-header__brand {
+  font-weight: bold;
+  font-size: 22px;
+  color: #0e4f1f;
+}
+
+.main-nav__items {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
