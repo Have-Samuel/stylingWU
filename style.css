@@ -52,6 +52,57 @@ body {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+.plan__headers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+}
+
+.title {
+  color: #084117;
+}
+
+.plan .title {
+  color: antiquewhite;
+}
+
+.plan_highlighted .price {
+  color: #0e4f1f;
+}
+
+.price {
+  color: gray;
+}
+
+.plan__units {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+.plan .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 0.2rem;
+  border-radius: 5px;
+  padding: 0.3rem 0;
+  /* text-align: center; */
+  /* width: 100%; */
+}
+
+.btn button {
+  border: none;
+  
+  
+}
+
 .section-title {
   color: #05c405;
   text-align: center;
