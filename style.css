@@ -37,6 +37,12 @@ body {
   vertical-align: middle;
 }
 
+.plan_highlighted {
+  background-color: #128212;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
 .section-title {
   color: #05c405;
   text-align: center;
