@@ -161,15 +161,39 @@ body {
   border-bottom: 5px solid antiquewhite;
 }
 
-/* pseudo-elements */
-/* p::first-letter {
-  color: red;
-  font-size: 18px;
-} */
-
 .main-nav__item--cta a:hover,
 .main-nav__item-cta a:active {
   color: #ff1b68;
   background: antiquewhite;
   border: none;
+}
+
+#stick__around {
+  background-color: #ff1b68;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.stick__around-header {
+  color: white;
+  text-align: center;
+  margin: 2rem;
+}
+
+.stick_around__items {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  color: white;
+}
+
+.stick_around__image {
+  background-color: #f0c0c0;
+  border: 3px solid gray;
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+  margin: auto;
 }
