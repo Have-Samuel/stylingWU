@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@700&display=swap');
+
 #pack_one {
-  background-color: aquamarine;
+  background-color: rgb(209, 236, 209);
   width: 80%;
-  padding: 3rem;
+  padding: 2rem;
   border: 5px solid green;
   margin: 1rem;
+}
+
+/* .pack__plans-1 {
+  padding: 1rem;
+} */
+
+#pack_one .pack__plans-1 {
+  text-decoration: none;
 }
 
 #pack_two {
@@ -14,10 +25,44 @@
   margin: 1rem;
 }
 
+.pack__plans-2 {
+  padding: 1rem;
+}
+
+#pack_two .pack__plans-2 {
+  text-decoration: none;
+}
+
 #pack_three {
   background-color: aquamarine;
   width: 80%;
   padding: 3rem;
   border: 5px solid green;
   margin: 1rem;
+}
+
+.pack__plans-3 {
+  padding: 1rem;
+}
+
+#pack_three .pack__plans-3 {
+  text-decoration: none;
+}
+
+.pack__plans-1_header {
+  color: black;
+  padding: 0.2rem;
+  border-bottom: none;
+}
+
+.pack_plans-1_subtitle {
+  color: gray;
+  padding: 0.2rem;
+}
+
+.pack__plans-1_description {
+  background-color: white;
+  padding: 0.8rem;
+  color: black;
+  border: 1px solid #016b01;
 }
