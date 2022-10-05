@@ -68,12 +68,12 @@ body {
   color: antiquewhite;
 }
 
-.plan_highlighted .price {
-  color: #0e4f1f;
-}
-
 .price {
   color: gray;
+}
+
+.plan_highlighted .price {
+  color: #0e4f1f;
 }
 
 .plan__units {
@@ -89,18 +89,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
-  margin: 0.2rem;
-  border-radius: 5px;
-  padding: 0.3rem 0;
-  /* text-align: center; */
-  /* width: 100%; */
+  color: antiquewhite;
 }
 
 .btn button {
-  border: none;
-  
-  
+  background-color: #084117;
+  color: antiquewhite;
+  padding: 0.6rem;
+  border-radius: 8px;
+  margin: 0.6rem;
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #084117;
+}
+
+.btn button:hover {
+  color: #084117;
+  background-color: antiquewhite;
 }
 
 .section-title {
