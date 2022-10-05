@@ -155,6 +155,16 @@ body {
   padding: 6px 16px;
 }
 
+.main-footer__link a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: gray;
+}
+
 .main-nav__item a:hover,
 .main-nav__item a:active {
   color: antiquewhite;
@@ -197,3 +207,19 @@ body {
   height: 128px;
   margin: auto;
 }
+
+.main-footer {
+  background-color: black;
+  padding: 2rem;
+}
+
+.main-footer__links {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
