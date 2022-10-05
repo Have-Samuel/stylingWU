@@ -17,20 +17,56 @@
   text-decoration: none;
 }
 
+.pack__plans-1_header {
+  color: black;
+  padding: 0.2rem;
+  border-bottom: none;
+}
+
+.pack_plans-1_subtitle {
+  color: gray;
+  padding: 1rem 0.2rem;
+}
+
+.pack__plans-1_description {
+  background-color: white;
+  padding: 0.8rem;
+  color: black;
+  border: 1px solid #016b01;
+}
+
 #pack_two {
-  background-color: aquamarine;
+  background-color: rgb(203, 228, 238);
   width: 80%;
-  padding: 3rem;
+  padding: 2rem;
   border: 5px solid green;
   margin: 1rem;
 }
 
-.pack__plans-2 {
+/* .pack__plans-2 {
   padding: 1rem;
-}
+} */
 
 #pack_two .pack__plans-2 {
   text-decoration: none;
+}
+
+.pack__plans-2_header {
+  color: black;
+  padding: 0.2rem;
+  border-bottom: none;
+}
+
+.pack_plans-2_subtitle {
+  color: gray;
+  padding: 1rem 0.2rem;
+}
+
+.pack__plans-2_description {
+  background-color: white;
+  padding: 0.8rem;
+  color: black;
+  border: 1px solid #016b01;
 }
 
 #pack_three {
@@ -41,26 +77,26 @@
   margin: 1rem;
 }
 
-.pack__plans-3 {
+/* .pack__plans-3 {
   padding: 1rem;
-}
+} */
 
 #pack_three .pack__plans-3 {
   text-decoration: none;
 }
 
-.pack__plans-1_header {
+.pack__plans-3_header {
   color: black;
   padding: 0.2rem;
   border-bottom: none;
 }
 
-.pack_plans-1_subtitle {
+.pack_plans-3_subtitle {
   color: gray;
-  padding: 0.2rem;
+  padding: 1rem 0.2rem;
 }
 
-.pack__plans-1_description {
+.pack__plans-3_description {
   background-color: white;
   padding: 0.8rem;
   color: black;
