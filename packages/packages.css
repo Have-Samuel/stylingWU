@@ -6,12 +6,15 @@
   width: 80%;
   padding: 2rem;
   border: 5px solid green;
-  margin: 1rem;
+  margin: 1rem 0;
+  border-left: none;
 }
 
-/* .pack__plans-1 {
-  padding: 1rem;
-} */
+#pack_one:hover,
+#pack_one:active {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-color: maroon;
+}
 
 #pack_one .pack__plans-1 {
   text-decoration: none;
@@ -35,20 +38,29 @@
   border: 1px solid #016b01;
 }
 
+.clearfix {
+  clear: both;
+}
+
 #pack_two {
   background-color: rgb(203, 228, 238);
   width: 80%;
   padding: 2rem;
   border: 5px solid green;
-  margin: 1rem;
+  margin: 1rem 0;
+  border-right: none;
+  float: right;
 }
 
-/* .pack__plans-2 {
-  padding: 1rem;
-} */
+#pack_two:hover,
+#pack_two:active {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-color: maroon;
+}
 
-#pack_two .pack__plans-2 {
+.pack__plans-2 {
   text-decoration: none;
+  text-align: right;
 }
 
 .pack__plans-2_header {
@@ -70,29 +82,32 @@
 }
 
 #pack_three {
-  background-color: aquamarine;
+  background-color: rgb(48, 73, 35);
   width: 80%;
   padding: 3rem;
   border: 5px solid green;
-  margin: 1rem;
+  margin: 1rem 0;
+  border-left: none;
 }
 
-/* .pack__plans-3 {
-  padding: 1rem;
-} */
+#pack_three:hover,
+#pack_three:active {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-color: maroon;
+}
 
 #pack_three .pack__plans-3 {
   text-decoration: none;
 }
 
 .pack__plans-3_header {
-  color: black;
+  color: white;
   padding: 0.2rem;
   border-bottom: none;
 }
 
 .pack_plans-3_subtitle {
-  color: gray;
+  color: #bbb;
   padding: 1rem 0.2rem;
 }
 
