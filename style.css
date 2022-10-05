@@ -35,6 +35,7 @@ body {
   padding: 1rem;
   margin: 0.5rem;
   vertical-align: middle;
+  border-radius: 12px;
 }
 
 .plan_highlighted {
@@ -62,10 +63,6 @@ body {
 
 .title {
   color: #084117;
-}
-
-.plan .title {
-  color: antiquewhite;
 }
 
 .price {
@@ -103,7 +100,8 @@ body {
   border: 1px solid #084117;
 }
 
-.btn button:hover {
+.btn button:hover,
+.btn button:active {
   color: #084117;
   background-color: antiquewhite;
 }
@@ -164,10 +162,10 @@ body {
 }
 
 /* pseudo-elements */
-p::first-letter {
+/* p::first-letter {
   color: red;
   font-size: 18px;
-}
+} */
 
 .main-nav__item--cta a:hover,
 .main-nav__item-cta a:active {
