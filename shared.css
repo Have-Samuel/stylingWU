@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #05c405;
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.main-header a {
+  text-decoration: none;
+}
+
+.main-header__brand {
+  font-weight: bold;
+  font-size: 22px;
+  color: #0e4f1f;
+}
+
+.main-nav__items {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2rem;
+}
+
+.main-nav__item a {
+  color: #0e4f1f;
+}
+
+/* Pseudo-classes */
+.main-nav__item a::after {
+  content: " (Link)";
+  color: red;
+}
+
+.main-nav__item--cta a {
+  background: #ff1b68;
+  color: antiquewhite;
+  border-radius: 8px;
+  padding: 6px 16px;
+}
+
+.main-footer__link a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: antiquewhite;
+  border-bottom: 5px solid antiquewhite;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item-cta a:active {
+  color: #ff1b68;
+  background: antiquewhite;
+  border: none;
+}
+
+.plan .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+}
+
+.btn button {
+  background-color: #084117;
+  color: antiquewhite;
+  padding: 0.6rem;
+  border-radius: 8px;
+  margin: 0.6rem;
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #084117;
+}
+
+.btn button:hover,
+.btn button:active {
+  color: #084117;
+  background-color: antiquewhite;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: gray;
+}
+
+.main-footer {
+  background-color: black;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.main-footer__links {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
