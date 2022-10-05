@@ -211,6 +211,7 @@ body {
 .main-footer {
   background-color: black;
   padding: 2rem;
+  margin-top: 2rem;
 }
 
 .main-footer__links {
@@ -222,4 +223,3 @@ body {
   gap: 2rem;
   list-style: none;
 }
-
