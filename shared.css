@@ -38,6 +38,14 @@ body {
   font-weight: bold;
   font-size: 22px;
   color: #0e4f1f;
+  /* height: 22px; */
+  width: 25px;
+  display: flex;
+}
+
+.main-header__brand img {
+  /* height: 100%; */
+  width: 100%;
 }
 
 .main-nav__items {
