@@ -38,13 +38,11 @@ body {
   font-weight: bold;
   font-size: 22px;
   color: #0e4f1f;
-  /* height: 22px; */
   width: 25px;
   display: flex;
 }
 
 .main-header__brand img {
-  /* height: 100%; */
   width: 100%;
 }
 
@@ -59,12 +57,6 @@ body {
 
 .main-nav__item a {
   color: #0e4f1f;
-}
-
-/* Pseudo-classes */
-.main-nav__item a::after {
-  content: " (Link)";
-  color: red;
 }
 
 .main-nav__item--cta a {
