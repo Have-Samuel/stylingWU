@@ -75,6 +75,11 @@
 }
 
 #stick__around {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
   background-color: #ff1b68;
   margin-top: 2rem;
   padding: 1rem;
@@ -102,4 +107,5 @@
   width: 128px;
   height: 128px;
   margin: auto;
+  padding: 1.5rem;
 }
