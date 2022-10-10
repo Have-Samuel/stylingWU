@@ -1,5 +1,14 @@
 main {
-  padding-top: 5rem;
+  padding-top: 2rem;
+}
+
+.background {
+  background-image: url('../images/plans-background.jpg');
+  filter: grayscale(100%);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
 }
 
 .pack__plans-badge {
