@@ -1,7 +1,6 @@
-var popup = document.querySelector('.backdrop');
-var modal = document.querySelector('.modal');
-var planButtons = document.querySelectorAll('.plan button');
-
+let planButtons = document.querySelectorAll('.plan button');
+let modal = document.querySelector('.modal')
+let popup = document.querySelector('.backdrop');
 
 for(let i = 0; i < planButtons.length; i++) {
   document.addEventListener('click', function() {
@@ -9,8 +8,3 @@ for(let i = 0; i < planButtons.length; i++) {
     modal.style.display = 'block';
   })
 }
-
-// console.dir(planButtons);
-
-// popup.style.display = 'block';
-
