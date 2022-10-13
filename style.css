@@ -2,7 +2,7 @@
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), url('./images/freedom.jpg') left 10% bottom 70%/cover no-repeat border-box #ff1b68;
   width: 100vw;
   height: 60vh;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 #product-overview h1 {
@@ -13,15 +13,23 @@
   left: 3%;
 }
 
+.great {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .plan {
-  display: inline-block;
+  display: flex;
   background-color: #d2eed2;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   width: 30%;
   padding: 1rem;
+  gap: 1rem;
   margin: 0.5rem;
-  vertical-align: middle;
   border-radius: 12px;
 }
 
@@ -72,6 +80,7 @@
 .section-title {
   color: #05c405;
   text-align: center;
+  padding: 1rem;
 }
 
 #stick__around {
