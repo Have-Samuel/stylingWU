@@ -9,7 +9,7 @@
 
 /* backDrop  */
 .backdrop {
-  /* display: none; */
+  display: none;
   position: fixed;
   background: rgba(0, 0, 0, 0.5);
   z-index: 100;
