@@ -20,13 +20,17 @@ popup.addEventListener('click', function() {
   closeModal();
 });
 
-modalNoButton.addEventListener('click', closeModal);
+if (modalNoButton) {
+  modalNoButton.addEventListener('click', closeModal);
+}
 
 function closeModal() {
   // popup.style.display = 'none';
   // modal.style.display = 'none';
+  if (modal) {
+    modal.classList.remove('open');
+  }
   popup.classList.remove('open');
-  modal.classList.remove('open');
 }
 
 toggleButton.addEventListener('click', function() {
