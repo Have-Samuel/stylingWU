@@ -2,15 +2,27 @@
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), url('./images/freedom.jpg') left 10% bottom 70%/cover no-repeat border-box #ff1b68;
   width: 100vw;
   height: 60vh;
-  margin-top: 2.5rem;
+  margin-top: 3.8rem;
 }
 
 #product-overview h1 {
   font-family: 'Anton', sans-serif;
   color: antiquewhite;
   position: absolute;
-  bottom: 38%;
+  bottom: 30%;
   left: 3%;
+  /* font-size: 1.6rem; */
+}
+
+@media (min-width: 40rem) {
+  #product-overview {
+    height: 65vh;
+    background-position: 50% 25%;
+  }
+
+  #product-overview h1 {
+    font-size: 3rem;
+  }
 }
 
 .great {
