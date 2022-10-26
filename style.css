@@ -98,6 +98,7 @@
     width: 30%;
     vertical-align: middle;
     min-width: 13rem;
+    max-width: 25rem;
   }
 
   .plan_highlighted {
@@ -129,12 +130,17 @@
 }
 
 .stick_around__items {
-  display: flex;
-  gap: 2rem;
+  /* display: flex; */
+  gap: 12rem;
   align-items: center;
   justify-content: center;
   list-style: none;
   color: white;
+}
+
+.stick_around__item {
+  vertical-align: top;
+  margin-top: 1rem;
 }
 
 .stick_around__image {
@@ -145,6 +151,10 @@
   height: 128px;
   margin: auto;
   padding: 1.5rem;
+}
+
+.stick__around__description {
+  text-align: center;
 }
 
 .modal {
