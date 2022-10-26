@@ -31,6 +31,7 @@ main {
   border-left: none;
   position: relative;
   z-index: -1;
+  min-width: 19rem;
 }
 
 #pack_one:hover,
@@ -73,6 +74,7 @@ main {
   margin: 1rem 0;
   border-right: none;
   float: right;
+  min-width: 19rem;
 }
 
 #pack_two:hover,
@@ -111,6 +113,7 @@ main {
   border: 5px solid green;
   margin: 1rem 0;
   border-left: none;
+  min-width: 19rem;
 }
 
 #pack_three:hover,
