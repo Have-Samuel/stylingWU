@@ -157,6 +157,13 @@
   text-align: center;
 }
 
+@media (min-width: 40rem) {
+  .stick_around__items {
+    display: flex;
+    max-width: 25rem;
+  }
+}
+
 .modal {
   position: fixed;
   display: none;
