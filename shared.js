@@ -1,21 +1,23 @@
-let planButtons = document.querySelectorAll('.plan button');
-let modal = document.querySelector('.modal')
-let popup = document.querySelector('.backdrop');
-let modalNoButton = document.querySelector('.modal__action--negative');
-let toggleButton =document.querySelector('.toggle-button');
-let mobileNav = document.querySelector('.mobile-nav')
+/* eslint-disable func-names */
+/* eslint-disable no-plusplus */
+/* eslint-disable no-use-before-define */
+/* eslint-disable prefer-arrow-callback */
+/* eslint-disable space-before-function-paren */
+const planButtons = document.querySelectorAll('.plan button');
+const modal = document.querySelector('.modal');
+const popup = document.querySelector('.backdrop');
+const modalNoButton = document.querySelector('.modal__action--negative');
+const toggleButton = document.querySelector('.toggle-button');
+const mobileNav = document.querySelector('.mobile-nav');
 
 for (let i = 0; i < planButtons.length; i++) {
   planButtons[i].addEventListener('click', function() {
-    // popup.style.display = 'block';
-    // modal.style.display = 'block';
     modal.classList.add('open');
-    popup.classList.add('open')
+    popup.classList.add('open');
   });
 }
 
 popup.addEventListener('click', function() {
-  // mobileNav.style.display = 'none'; 
   mobileNav.classList.remove('open');
   closeModal();
 });

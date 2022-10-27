@@ -40,7 +40,7 @@ main {
   border-color: maroon;
 }
 
-#pack_one .pack__plans-1 {
+.pack__plans-1 {
   text-decoration: none;
 }
 
@@ -142,4 +142,30 @@ main {
   padding: 0.8rem;
   color: black;
   border: 1px solid #016b01;
+}
+
+@media (min-width: 40rem) {
+  main {
+    margin: 2.8rem auto;
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 1000px) {
+  #pack_one,
+  #pack_two,
+  #pack_three {
+    min-width: 66%;
+    border-left: 5px solid green;
+  }
+
+  #pack_two {
+    border-right: 5px solid green;
+  }
+
+  #pack_two:hover,
+  #pack_two:active {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-color: maroon;
+  }
 }
