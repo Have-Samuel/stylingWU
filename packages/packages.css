@@ -1,11 +1,11 @@
 @font-face {
   font-family: "AnonymousPro";
-  src: url("anonymousPro-Regular.ttf");
+  src: url("anonymousPro-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "AnonymousPro";
-  src: url("anonymousPro-Bold.ttf");
+  src: url("anonymousPro-Bold.ttf") format("truetype");
   font-weight: 700;
 }
 
@@ -117,6 +117,8 @@ main {
   padding: 0.8rem;
   color: black;
   border: 1px solid #016b01;
+  font-family: "AnonymousPro", sans-serif;
+  font-weight: 700;
 }
 
 #pack_three {
@@ -155,6 +157,8 @@ main {
   padding: 0.8rem;
   color: black;
   border: 1px solid #016b01;
+  font-family: "AnonymousPro", sans-serif;
+  font-weight: 700;
 }
 
 @media (min-width: 40rem) {
