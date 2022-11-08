@@ -74,18 +74,29 @@ main {
 .signup-form .button {
   background-color: #0e4f1f;
   padding: 0.6rem;
-  border-radius: 10px;
+  border-radius: 8px;
+  border: 1.5px solid #0e4f1f;
   color: #fff;
   font: inherit;
   font-weight: bold;
   cursor: pointer;
 }
 
-.signup-form .button:hover,
-.signup-form .button:active {
-  border: 1px solid #0e4f1f;
+.button:hover,
+.button:active {
   background-color: #fff;
   color: #0e4f1f;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.signup-form .button[disabled] {
+  cursor: not-allowed;
+  background-color: gray;
+  color: #757070;
+  border: #757070;
 }
 
 @media (min-width: 40rem) {
