@@ -59,9 +59,33 @@ main {
   border: #0e4f1f;
 }
 
+.signup-form input.invalid,
+.signup-form select.invalid,
+.signup-form :invalid {
+  border-color: red !important;
+  background-color: #ff5454;
+}
+
 .signup-form button[type="submit"] {
   display: block;
   margin-top: 1rem;
+}
+
+.signup-form .button {
+  background-color: #0e4f1f;
+  padding: 0.6rem;
+  border-radius: 10px;
+  color: #fff;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-form .button:hover,
+.signup-form .button:active {
+  border: 1px solid #0e4f1f;
+  background-color: #fff;
+  color: #0e4f1f;
 }
 
 @media (min-width: 40rem) {
