@@ -24,9 +24,6 @@
 .testimonial__info {
   text-align: right;
   padding: 0.8rem;
-  /* display: inline-block; */
-  /* vertical-align: middle; */
-  /* width: 30%; */
 }
 
 #customer-2.testimonial {
@@ -65,8 +62,11 @@
 
 @media (min-width: 40rem) {
   .testimonial {
+    display: flex;
+    align-items: center;
     margin: 3rem auto;
     max-width: 1500px;
+    justify-content: space-around;
   }
 
   .testimonial__image-container {
