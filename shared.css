@@ -28,10 +28,11 @@ body {
   background-color: #05c405;
   width: 100%;
   padding: 0.5rem 1rem;
-  /* position: fixed;
+  position: fixed;
   top: 0;
-  left: 0; */
+  left: 0;
   z-index: 100;
+  align-items: center;
 }
 
 .main-header a {
@@ -79,7 +80,6 @@ body {
   font-size: 22px;
   color: #0e4f1f;
   width: 2.5rem;
-  display: flex;
 }
 
 .main-header__brand img {

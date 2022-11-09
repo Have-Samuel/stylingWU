@@ -71,8 +71,7 @@ main {
   padding: 0.8rem;
   color: black;
   border: 1px solid #016b01;
-  font-family: "AnonymousPro", sans-serif;
-  font-weight: 700;
+  font-size: 1.2rem;
 }
 
 .clearfix {
@@ -117,8 +116,7 @@ main {
   padding: 0.8rem;
   color: black;
   border: 1px solid #016b01;
-  font-family: "AnonymousPro", sans-serif;
-  font-weight: 700;
+  font-size: 1.2rem;
 }
 
 #pack_three {
@@ -157,8 +155,7 @@ main {
   padding: 0.8rem;
   color: black;
   border: 1px solid #016b01;
-  font-family: "AnonymousPro", sans-serif;
-  font-weight: 700;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 40rem) {
