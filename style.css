@@ -2,15 +2,13 @@
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), url('./images/freedom.jpg') center/cover no-repeat border-box #ff1b68;
   width: 100vw;
   height: 60vh;
-  /* position: relative; */
-  /* margin-top: 3.8rem; */
 }
 
 #product-overview h1 {
   font-family: 'Anton', sans-serif;
   color: antiquewhite;
   position: absolute;
-  bottom: 37%;
+  bottom: 40%;
   left: 3%;
   font-size: 1.6rem;
   z-index: 10;
